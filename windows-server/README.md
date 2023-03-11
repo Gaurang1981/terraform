@@ -6,7 +6,8 @@
    
    ssh-keygen -t rsa -b 4096
 
-3. Create terraform.tfvars in the root folder and configure the following variables.
+3. Create terraform.tfvars in the terraform\windows-server folder and configure the following variables.
+
    key_pair_name = "mykey"  
    public_key_name = "C:\\Users\\gaurang\\.ssh\\mykey.pub"  
    private_key_name = "C:\\Users\\gaurang\\.ssh\\mykey"    
